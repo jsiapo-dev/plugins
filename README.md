@@ -5,7 +5,7 @@ repository that owns the plugin, so a plugin is released by tagging its own repo
 touching this one.
 
 ```bash
-claude plugin marketplace add JSiapoDEV/plugins
+claude plugin marketplace add jsiapo-dev/plugins
 claude plugin install vibeward
 ```
 
