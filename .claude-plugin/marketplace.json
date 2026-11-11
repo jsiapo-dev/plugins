@@ -19,6 +19,20 @@
         "name": "José Siapo",
         "url": "https://github.com/JSiapoDEV"
       }
+    },
+    {
+      "name": "md2pdf-studio",
+      "source": { "source": "git-subdir", "url": "https://github.com/JSiapoDEV/md2pdf.git", "path": "plugin", "ref": "main" },
+      "description": "Share Markdown as a private, end-to-end encrypted md2pdf.studio link that opens as a styled document the reader can download as PDF, HTML or an image.",
+      "category": "productivity",
+      "tags": ["markdown", "pdf", "share", "encrypted", "e2ee"],
+      "homepage": "https://md2pdf.studio/ai-skill",
+      "repository": "https://github.com/JSiapoDEV/md2pdf",
+      "license": "MIT",
+      "author": {
+        "name": "JSiapoDev",
+        "url": "https://jsiapo.dev"
+      }
     }
   ]
 }

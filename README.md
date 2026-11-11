@@ -7,9 +7,10 @@ touching this one.
 ```bash
 claude plugin marketplace add jsiapo-dev/plugins
 claude plugin install vibeward
+claude plugin install md2pdf-studio
 ```
 
-The second command takes the bare plugin name. `vibeward@jsiapo-dev` also works and is only needed
+The install commands take the bare plugin name. `vibeward@jsiapo-dev` also works and is only needed
 if another marketplace you have registered happens to publish a plugin by the same name.
 
 ## What is in it
@@ -17,6 +18,7 @@ if another marketplace you have registered happens to publish a plugin by the sa
 | Plugin | What it does | Source |
 |---|---|---|
 | [`vibeward`](https://vibeward.ai) | Stops the insecure prompt before Claude runs it, and audits what already shipped. Deterministic rules, no LLM call. | [`JSiapoDEV/vibeward`](https://github.com/JSiapoDEV/vibeward), branch `plugin` |
+| [`md2pdf-studio`](https://md2pdf.studio/ai-skill) | Shares Markdown as a private, end-to-end encrypted link that opens as a styled document, ready to download as PDF, HTML or an image. | [`JSiapoDEV/md2pdf`](https://github.com/JSiapoDEV/md2pdf), folder `plugin` on `main` |
 
 ## Adding a plugin
 
